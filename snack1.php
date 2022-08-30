@@ -3,6 +3,7 @@
 $games = ['Utah Jazz Denver Nuggets | 82 72', 'Golden State Warriors Washington Wixards | 77 87', 'Toronto Raptors Milwaukee Bucks | 80 69', 'Detroit Pistons Orlando Magic | 102 86'];
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
