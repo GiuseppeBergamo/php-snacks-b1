@@ -1,12 +1,12 @@
 <?php 
 
-$name = $_GET['name'];
+$name = $_GET['name'] ?? '';
 
-$mail = $_GET['mail'];
+$mail = $_GET['mail'] ?? '';
 
-$age = $_GET['age'];
+$age = $_GET['age'] ?? '';
 
-if(strlen($name) > 3 && str_contains($mail, '.' && '@') && is_numeric($age)) {
+if(mb_strlen($name) > 3 && strpos($mail, '.') && strpos($mail, '@') && is_numeric($age)) {
     echo 'Accesso riuscito';
 } 
 else {
